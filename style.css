@@ -103,11 +103,11 @@ input {
   padding-inline: 18px;
 
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: 2s;
 }
 
 .task-count > button:hover {
-  background-color: #53d4ff;
+  background-color: #ff5353;
 }
 
 .task-count > button:active {
@@ -182,7 +182,7 @@ input {
 
 .input-field > input {
   flex: 1 0 auto;
-  border: 2px solid #f2f2f2;
+  border: 2px solid #918989;
   border-radius: 6px 0px 0px 6px;
   padding-left: 12px;
   font-size: 19px;

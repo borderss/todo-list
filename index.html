@@ -1,74 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="./script.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
   <title>Example</title>
 </head>
+
 <body>
   <div class="content-field">
     <header>
       <h1>Todo saraksts</h1>
       <p>Uzdevumu saraksts</p>
-      
+
       <div class="task-count">
-        <h2>Jums ir 5 aktīvi uzdevumi</h2>
-        <button>Notīrīt visus</button>
+        <h2 id="task-counter">Jums ir 5 aktīvi uzdevumi</h2>
+        <button id="clearAll">Notīrīt visus</button>
       </div>
     </header>
 
     <div class="input-field">
-      <input type="text" placeholder="Uzdevums..."> 
-      <button>
+      <input id="taskText" type="text" placeholder="Uzdevums...">
+      <button id="addTask">
         <img src="./src/graphics/plus.svg" alt="+">
       </button>
     </div>
 
     <div class="content">
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
-      <div class="task-card">
-        <span>task one</span>
-        <img src="./src/graphics/checkmark.svg" alt="✔">
-      </div>
     </div>
   </div>
 </body>
+<script src="./script.js"></script>
+
 </html>
